@@ -1,1 +1,1 @@
-# Dagger2Sample 在AndroidStudio3.0下进行编译，module类库提供实例对象，component起桥梁作用（和MVP模式里P的作用类似），Activity是调用者。MainActivity的布局activity_main里通过fragment标签填充MainFragment。
+# Dagger2Sample 在AndroidStudio3.0下进行编译，module类库提供实例对象，component起桥梁作用（和MVP模式里P的作用类似），Activity是调用者。MainActivity的布局activity_main里通过fragment标签填充MainFragment。MainFragmentComponent里定义的注入方法默认方法名字都是inject，获得实例对象或者实例对象类的构造方法的注解关键字就是@Inject。
